@@ -1,0 +1,213 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.body {
+	background-color: rgb(195, 206, 216);
+}
+
+header {
+	background-color: rgb(77, 116, 189);
+	width: 90%;
+	padding: 20px;
+	margin: auto;
+	
+	display: flex;
+	flex-flow: 1 1 30%;
+	justify-content: flex-start;
+}
+
+.titulo {
+	text-decoration: none;
+	color: white;
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+	background-color: rgb(9, 9, 85);
+	width: 90%;
+	margin: auto;
+	padding: 8px;
+
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+}
+
+a:hover{
+	background-color:darkslateblue;
+}
+
+
+
+/* TODO---- QUE HAY QUE HACER
+FIXME ----ARREGLAR TAL COSA
+ */
+
+/* TODO---- QUE HAY QUE HACER
+FIXME ----ARREGLAR TAL COSA
+ */
+
+.contenedor{
+	background: rgb(255, 255, 255);
+	width: 90%;
+	margin: auto;
+	padding: 5px;
+	height: 500px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	
+	/* flex-flow: 1 1 80%; */
+	justify-content: space-around;
+	flex: 2 1 auto;
+
+}
+
+.aside{
+	background-color: rgb(218, 218, 142);
+	padding: 10px;
+	/* max-width: 20%; */
+	height:auto;
+	min-width: 20%;
+
+
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: end;
+	flex-direction:column;
+
+
+
+
+}
+
+
+.aside h3{
+	color: rgb(218, 9, 9);
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.aside p{
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+
+	width: 80%;
+	height: auto;
+	align-items: stretch;
+	padding: 10px;
+
+}
+
+
+
+section{
+	background-color: white;
+	color:black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	
+	height:auto;
+	margin-bottom: 5px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+
+	justify-content: center;
+
+}
+
+/* .destacado{
+	background-color: rgb(238, 154, 255);
+	width: 100%;
+	height:auto;
+
+	flex-wrap:wrap;
+	justify-content: center;
+	
+} */
+
+.titulo-destacado{
+	background-color: rgb(216, 111, 111);
+	width: 100%;
+	height:auto;
+	padding: 10px;
+	flex-wrap:wrap;
+
+}
+
+
+
+.cuatrotitulos{
+	background-color: yellow;
+	width: 100%;
+
+	height:auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+}
+
+
+.titulo1{
+	background-color: coral;
+	width: 50%;
+	height: auto;
+	align-items: stretch;
+	padding: 10px;
+
+}
+
+.titulo2{
+	background-color: coral;
+	width: 50%;
+	height: auto;
+	align-items: stretch;
+	padding: 10px;
+
+}
+
+.titulo3{
+	background-color: coral;
+	width: 50%;
+	height: auto;
+	align-items: stretch;
+	padding: 10px;
+
+}
+
+.titulo4{
+	background-color: coral;
+	width: 50%;
+	height: auto;
+	align-items: stretch;
+	padding: 10px;
+}
+
+
+/* @media screen {
+	
+} */
